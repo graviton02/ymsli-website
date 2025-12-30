@@ -209,9 +209,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="text-center p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-ymsli-cyan/30 transition-all duration-300"
+                className="text-center p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-ymsli-cyan/30 transition-all duration-300 overflow-visible"
               >
-                <p className="stat-number mb-2">
+                <p className="stat-number mb-2 overflow-visible">
                   <AnimatedCounter value={stat.number} />
                 </p>
                 <p className="text-white/60 text-sm">{stat.label}</p>

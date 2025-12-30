@@ -225,11 +225,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Stats counter */
 .stat-number {
-  @apply text-5xl lg:text-6xl font-bold font-display;
+  @apply text-4xl lg:text-5xl font-bold font-display leading-none whitespace-nowrap;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255,255,255,0.7) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  padding-right: 0.1em;
 }
 
 /* Navigation dropdown */
