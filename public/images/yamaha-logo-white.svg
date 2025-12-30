@@ -1,0 +1,20 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tuning Fork Circle -->
+  <circle cx="24" cy="24" r="22" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="24" cy="24" r="18" stroke="rgba(255,255,255,0.5)" stroke-width="1" fill="none"/>
+
+  <!-- Three Tuning Forks - simplified representation -->
+  <g fill="#FFFFFF">
+    <!-- Center vertical element -->
+    <rect x="22" y="8" width="4" height="32" rx="1"/>
+
+    <!-- Left diagonal -->
+    <rect x="10" y="22" width="16" height="4" rx="1" transform="rotate(-45 18 24)"/>
+
+    <!-- Right diagonal -->
+    <rect x="22" y="22" width="16" height="4" rx="1" transform="rotate(45 30 24)"/>
+  </g>
+
+  <!-- YAMAHA Text -->
+  <text x="56" y="32" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF">YAMAHA</text>
+</svg>
