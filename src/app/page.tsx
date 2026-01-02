@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { motion, useScroll, useTransform, useInView } from 'framer-motion'
 import {
   Building2, Code2, Shield, Brain, Lightbulb, Cog, Rocket,
-  ArrowRight, CheckCircle2, Users, Globe, Award, Sparkles,
-  ChevronRight, Play, Target, Zap, TrendingUp
+  ArrowRight, CheckCircle2, Users, Globe, Award,
+  ChevronRight, Target, Zap, TrendingUp
 } from 'lucide-react'
 import { stats, services, certifications, dxJourney, employeeMetrics } from '@/lib/utils'
 
@@ -503,37 +503,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact CTA Section */}
-      <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 hero-pattern" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ymsli-navy/90 to-ymsli-blue/90" />
-
-        <div className="container-custom relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center max-w-3xl mx-auto"
-          >
-            <Sparkles className="w-12 h-12 text-ymsli-cyan mx-auto mb-6" />
-            <h2 className="text-3xl lg:text-5xl font-display font-bold text-white mb-6">
-              Let's Start a Conversation
-            </h2>
-            <p className="text-white/70 text-lg mb-10">
-              Ready to transform your business with technology? Our team is here to help you
-              navigate your digital journey.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="btn-secondary">
-                Contact Us
-              </Link>
-              <Link href="/services" className="btn-outline">
-                Explore Services
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-      </section>
     </>
   )
 }
